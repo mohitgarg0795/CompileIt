@@ -29,6 +29,11 @@ $(document).keydown(function(event){
 	}
 })
 
+window.onfocus = function(){		//to remove unwanted alts, which are left pressed
+	alt_pressed = false;
+	console.log(alt_pressed);
+};
+
 $(document).keyup(function(event){
 	var char = event.which || event.keyCode;
 	if(char==18)
