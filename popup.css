@@ -1,0 +1,27 @@
+html,body {
+  width:220px;
+  background:rgb(41, 182, 190);
+}
+
+h2 {
+  margin-left:40px;
+  text-decoration: underline;
+  color:rgb(130, 22, 22);
+}
+
+li {
+  list-style: none;
+  margin-top:10px;
+}
+
+#bind_code {
+  font-size:18px;
+  margin-right: 6px;
+}
+
+#bind_lang {
+  margin-left:6px;
+  font-size:18px;
+  color:rgb(240, 36, 36);
+  background:rgb(252, 212, 194);
+}
