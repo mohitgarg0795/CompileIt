@@ -44,5 +44,5 @@ chrome.runtime.onMessage.addListener(
 		var lang = lang_map[request.key];
 		$('#lang option').filter(function () { return $(this).html() == lang; }).prop('selected', true)
 		$("#submit").click();
-		chrome.runtime.sendMessage({ "message" : "stop" });
+		//chrome.runtime.sendMessage({ "message" : "stop" });
 })
